@@ -1,7 +1,7 @@
 from email import encoders#responsible for encryption of data
-from email.mime.base import MIMEBase# is used for fetching of the API
-from email.mime.multipart import MIMEMultipart#
-from email.mime.text import MIMEText#mod
+from email.mime.base import MIMEBase#module responsible creating email, sending them simultaneously and mime objects
+from email.mime.multipart import MIMEMultipart#for fetching the API
+from email.mime.text import MIMEText#library that helps in sending the emails
 import base64#delude the encryption
 import os#importing the operating system
 def create_message(sender, to, subject, message_text):
